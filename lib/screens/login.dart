@@ -65,14 +65,14 @@ class _LoginScreenState extends State<LoginScreen> {
       // Add your button press logic here
     },
     style: ElevatedButton.styleFrom(
-    primary:   Colors.blue,
+    backgroundColor: blue,
      padding: const EdgeInsets.symmetric(
                         vertical: 12,
                         horizontal: 50,
                       ),
                        shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(25),
-                        side: BorderSide(color: Color.fromARGB(255, 73, 99, 114)),
+                        side: BorderSide(color: Color.fromARGB(255, 67, 145, 190)),
                       ),
     ),
     
@@ -100,7 +100,7 @@ const SizedBox(height : 45),
         TextSpan(
           text: 'Login',
           style: TextStyle(
-            color: Colors.blue, // Set the color you want for "Login"
+            color: blue, // Set the color you want for "Login"
             fontSize: 13,
             fontWeight: FontWeight.bold,
             decoration: TextDecoration.underline
